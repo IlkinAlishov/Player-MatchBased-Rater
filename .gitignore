@@ -1,0 +1,30 @@
+# --------------------
+# Data & Artifacts
+# --------------------
+# Ignore large raw data files (essential for Kaggle datasets)
+data/raw/database.sqlite
+data/raw/*.csv
+# Ignore all generated and processed data
+data/processed/
+data/new_features.csv
+data/predicted_ratings.csv
+data/summary/
+
+# Ignore large binary models
+models/
+
+# Ignore generated reports (images/text)
+reports/*.png
+reports/*.txt
+# NOTE: We keep PPT.py, but ignore the output.
+
+# --------------------
+# Python/OS Artifacts
+# --------------------
+# Virtual environment
+.venv/
+# Compiled Python files
+__pycache__/
+*.pyc
+# OS X metadata
+.DS_Store
