@@ -2,8 +2,8 @@
 # Data & Artifacts
 # --------------------
 # Ignore large raw data files (essential for Kaggle datasets)
-data/raw/database.sqlite
-data/raw/*.csv
+# data/raw/database.sqlite
+# data/raw/*.csv
 # Ignore all generated and processed data
 data/processed/
 data/new_features.csv
