@@ -1,5 +1,3 @@
-Here’s a formatted version of your draft README file for the **Player Match-Based Rater** project:
-
 ```markdown
 # ⚽ Player Match-Based Rater🌟
 
