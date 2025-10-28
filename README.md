@@ -106,11 +106,13 @@ Upon successful execution, the following artifacts are generated locally:
   * **Full Evaluation Report:** `reports/full_eval.txt` (Contains detailed breakdown of MAE by position and rating band).
   * **Visualizations:** `reports/residual_hist.png` (Visualization of model error distribution).
 
----
 
 ## ✍️ Contribution
 
 If you have ideas for new features, better prompts, or cleaner code, feel free to submit a **Pull Request** or open an **Issue**!
+
+---
+
 
 ```
 
