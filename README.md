@@ -1,4 +1,3 @@
-```markdown
 # ⚽ Player Match-Based Rater🌟
 
 ## Project Overview
