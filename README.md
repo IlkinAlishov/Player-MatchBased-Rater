@@ -97,8 +97,41 @@ Upon successful execution, the following artifacts are generated locally:
 
   | Metric                            | Performance |
   | --------------------------------- | ----------- |
-  | **MAE** (Mean Absolute Error)     | $0.2876     |
-  | **RMSE** (Root Mean Square Error) | $0.3849     |
+  | **MAE** (Mean Absolute Error)     | 0.2876      |
+  | **RMSE** (Root Mean Square Error) | 0.3849      |
+
+* **MAE by Rating Band**:
+
+  | Rating Band | MAE     | Samples (n) |
+  | ----------- | ------- | ----------- |
+  | ≈6          | 0.2303  | 964         |
+  | ≈7          | 0.2512  | 993         |
+  | ≥8          | 0.5015  | 403         |
+
+* **MAE by Position**:
+
+  | Position | MAE     | Samples (n) |
+  | -------- | ------- | ----------- |
+  | DF       | 0.3384  | 1188        |
+  | FW       | 0.2969  | 527         |
+  | GK       | 0.3379  | 320         |
+  | MF       | 0.2985  | 1423        |
+  | Sub      | 0.1684  | 813         |
+
+* **MAE by Competition (Top 10)**:
+
+  | Competition                | MAE     | Samples (n) |
+  | -------------------------- | ------- | ----------- |
+  | World Cup 2018             | 0.2848  | 330         |
+  | Bundesliga 2017-18         | 0.2854  | 1626        |
+  | Premier League 2017-18     | 0.2895  | 2084        |
+  | Euro 2016                  | 0.2903  | 231         |
+
+* **Output Files**:
+    - **Model:** `models/rating_model.pkl`
+    - **Full Evaluation Report:** `reports/full_eval.txt` (Contains detailed breakdown of MAE by position, rating band, and competition).
+    - **Visualizations:** `reports/residual_hist.png` (Visualization of model error distribution).
+
 
 * **Output Files**:
 
@@ -113,12 +146,5 @@ If you have ideas for new features, better prompts, or cleaner code, feel free t
 
 ---
 
-
-### Key Changes:
-1. **Project Overview** is now a section with clear bullet points.
-2. **Repository Structure** uses a code block for easier visualization.
-3. **Getting Started** has clear steps for setup with Bash commands properly formatted.
-4. **Execution Instructions** are clear, and the pipeline flow is presented in a table for better clarity.
-5. **Results and Output** is laid out with key metrics and output files with formatting for ease of reading.
 
 
