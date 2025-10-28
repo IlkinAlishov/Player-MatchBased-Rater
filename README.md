@@ -114,8 +114,6 @@ If you have ideas for new features, better prompts, or cleaner code, feel free t
 ---
 
 
-```
-
 ### Key Changes:
 1. **Project Overview** is now a section with clear bullet points.
 2. **Repository Structure** uses a code block for easier visualization.
@@ -123,5 +121,4 @@ If you have ideas for new features, better prompts, or cleaner code, feel free t
 4. **Execution Instructions** are clear, and the pipeline flow is presented in a table for better clarity.
 5. **Results and Output** is laid out with key metrics and output files with formatting for ease of reading.
 
-This structure is cleaner and more readable, ensuring that others can easily understand the project setup and execution.
-```
+
